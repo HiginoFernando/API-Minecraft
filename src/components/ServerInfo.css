@@ -1,0 +1,23 @@
+.server-card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .server-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    color: #00ffcc;
+  }
+  
+  .server-icon {
+    max-width: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  

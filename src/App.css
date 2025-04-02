@@ -1,0 +1,73 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.input-ip {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  outline: none;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.input-ip:focus {
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+.btn-search {
+  background: #00ffcc;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.btn-search:hover {
+  background: #00ffaa;
+}
+
+/* aqui vai ficar o load anim */
+.loader {
+  border: 6px solid rgba(255, 255, 255, 0.2);
+  border-top: 6px solid #00ffcc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
