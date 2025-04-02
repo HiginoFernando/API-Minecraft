@@ -13,3 +13,16 @@ Este projeto é um front-end React.js que consome a API [mcsrvstat.us](https://a
 ```bash
 git clone https://github.com/HiginoFernando/API-Minecraft.git
 cd API-Minecraft
+
+2️⃣ Instale as dependências:
+npm install
+
+3️⃣ Rode o projeto:
+npm run dev
+
+```
+
+📡 API utilizada
+https://api.mcsrvstat.us/
+
+![alt text](image.png)
